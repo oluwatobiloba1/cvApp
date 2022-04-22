@@ -6,7 +6,7 @@ function Education() {
     const [school, setSchool] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:8000/schools')
+        fetch('.../public/data.json')
             .then(res=> res.json())
             .then(data=> {
                 setSchool(data)
