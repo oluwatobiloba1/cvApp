@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+}
+p{
+  margin: 0;
+}
+h1{
+  color: #DC6A39;
+  text-align: center;
+  margin: 50px;
+}
+h4{
+  color: #DC6A39;
+  margin: 20px 0;
+}
+.person h4{
+  margin-left: 20px;
+}
+.personal{
+  min-height: 200px;
+  border-radius: 10px;
+  padding: .75em;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px 40px;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  border:1px solid #9e9999;
+}
+.education{
+  border-radius: 10px;
+  padding: .75em;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px 40px;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  border:1px solid #9e9999;
 }
 
-.App-link {
-  color: #61dafb;
+.edu-added{
+  border-radius: 10px;
+  border: 1px solid #9e9999;
+  margin: 5px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edu-added p{
+  background-color: hsl(0, 3%, 61% ,0.2);
+  margin: .5em;
+  width: 40%;
+  padding: .2em .2em .2em .75em;
+}
+.school, .work{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.school label, .work label{
+  margin: 5px;
+}
+input{
+  width: 50%;
+  margin-left: 5px;
+}
+input:focus{
+  outline-color: plum;
+}
+.school input{
+  margin-left: 5px;
+}
+.experince{
+  border-radius: 10px;
+  padding: .75em;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px 40px;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  border:1px solid #9e9999;
+}
+.exp-added{
+  border-radius: 10px;
+  border: 1px solid #9e9999;
+  margin: 5px 0;
+}
+.exp-added p{
+  background-color: hsl(0, 3%, 61% ,0.2);
+  margin: .5em;
+  width: 40%;
+  padding: .2em .2em .2em .75em;
+}
+button{
+  width: 60px;
+  border-radius: 10px;
+  padding: .75em;
+  background-color: plum;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  color: #ebe3e3;
+}
+button:hover{
+  background-color: rgb(255, 250, 255);
+  color: plum;
+  cursor: pointer;
+  border: 1px solid plum;
 }

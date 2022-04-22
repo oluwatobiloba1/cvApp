@@ -1,0 +1,12 @@
+{
+    "schools": [
+        {"name": "unilag",
+            "level": "tertiary",
+            "duration": 4
+        },
+        {"name": "fstc",
+            "level": "senior secondary",
+            "duration": 3
+        }
+    ]
+}
